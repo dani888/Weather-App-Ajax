@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <!-- <script defer src="./script.js"></script> -->
+    <link href="./css/style.css" rel="stylesheet" type="text/css" />
+    <title>Intro to AJAX</title>
+</head>
+  <body>
+    <div id="center">
+      <div class="outer-container">
+		    <div class="container">Ajax Weather App</div>
+      </div><br>
+      <div class="centerz">
+          Weather for:
+          <span class="span" id="weather_for"></span>
+          <br><br>
+          Temperature:
+          <span class="span" id="temp"></span>
+          <br><br>
+          Feels like:
+          <span class="span" id="feels_like"></span>
+          <br><br>
+          Weather:
+          <span class="span" id="weather"></span>
+      </div>
+          <br><br>
+          <div>
+          <form>
+              <input id="user_input" type="text" placeholder="Enter a City" />
+              <input type="submit" value="Get Weather Info" class="btn">
+          </form>
+      </div>
+      <br><br>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
